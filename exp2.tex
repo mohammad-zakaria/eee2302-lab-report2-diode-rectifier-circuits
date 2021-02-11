@@ -12,6 +12,7 @@
 \usepackage{amssymb}
 \usepackage[margin=1in]{geometry}
 \usepackage{textcomp}
+\usepackage[section]{placeins}
 
 
 
@@ -145,7 +146,6 @@
 		\label{fig:vout1} Output voltage for full wave bridge rectifier when no capacitor is connected.
 	\end{figure}
 	
-	
 	\begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{Vout1-for-bride-fullwave-with-1ufd-capacitor.pdf} % Include the image placeholder.png
@@ -169,6 +169,16 @@
 		\caption{}
 		\label{fig:vout1} Output voltage for full wave bridge rectifier when 220 \textmu F capacitor is connected.
 	\end{figure}
+
+\section{Report:}
+Average value of the load voltages in fig 1, \
+$V_{DC} = \dfrac{V_m -V_T}{\pi}$ = $ \dfrac{8-07}{3.1416} $ = 2.32V \\
+
+Average value of the load voltage in fig 6, \ $V_{DC} = \dfrac{2(V_m -2V_T)}{\pi}$ = $ \dfrac{2(8-2 \times0.7)}{3.1416} $ = 4.20V \\
+
+In this experiment, 1000\textmu F capacitor act as a better filter. The more the capacitance the lower the ripple factor, the pure the output voltage. In half wave rectifier the major disadvantages are high ripple factor and low efficiency. The higher the ripple factor is the lower the efficiency.
+
+\section{Discussion:} We have learned how diode convert ac into dc in this sessional class. In our first step, we didn't found proper simulation graph for bridge rectifier output voltage. This was because of proper grounding. In bridge rectifier, we cannot find proper simulation for $V_{out}t$ and $V_{in}$ at a time. That is we can't observe output and input at a time in full wave rectifier. We also learned that upto PIV, diode won't be damage.
 
 	
 \end{document}
